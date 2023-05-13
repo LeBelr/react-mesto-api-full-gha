@@ -1,0 +1,9 @@
+.cards__box-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  height: 80px;
+  border-radius: 0 0 10px 10px;
+}
