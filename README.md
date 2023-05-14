@@ -6,7 +6,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.48.140
+IP 158.160.48.140
 
 Frontend https://mst.nomoredomains.monster
 
