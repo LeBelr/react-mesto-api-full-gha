@@ -89,9 +89,9 @@ class Api extends React.Component{
 }
 
 const api = new Api({
-  baseUrl: 'https://mesto.nomoreparties.co/v1/cohort-58',
+  baseUrl: 'https://api.mst.nomoredomains.monster',
   headers: {
-    authorization: '1dec9d07-98e5-4556-9436-d3b7e0a78948',
+    authorization: `Bearer ${localStorage.getItem('token')}`,
     'Content-Type': 'application/json'
   }
 })
