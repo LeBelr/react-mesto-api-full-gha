@@ -13,10 +13,6 @@ module.exports = (err, req, res, next) => {
     res.status(RegError).send({ message: 'Пользователь с данной почтой существует' });
     return;
   }
-  if (err === 'Bad Request') {
-    res.status(incorrectDataError).send({ message: 'Переданы некорректные данные' });
-    return;
-  }
 
   const { statusCode = 500, message } = err;
 
