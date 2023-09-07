@@ -1,13 +1,27 @@
-[![Tests](https://github.com/yandex-praktikum/react-mesto-api-full-gha/actions/workflows/tests.yml/badge.svg)](https://github.com/yandex-praktikum/react-mesto-api-full-gha/actions/workflows/tests.yml)
-# react-mesto-api-full
-Репозиторий для приложения проекта `Mesto`, включающий фронтенд и бэкенд части приложения со следующими возможностями: авторизации и регистрации пользователей, операции с карточками и пользователями. 
+# Проект Mesto
+Mesto - приложение, в котором пользователи могут делиться фотографиями. 
+Репозиторий приложения проекта `Mesto` включает фронтенд и бэкенд части приложения.
 
-Адрес репозитория: https://github.com/LeBelr/react-mesto-api-full-gha
+## Функционал
+- Регистрация и авторизация пользователей
+- Добавление и удаление фото
+- Добавление и снятие лайков
+- Редактирование профиля пользователя
+- Открытие увеличенного фото в отдельном окне
 
-## Ссылки на проект
+## Стек технологий
+- HTML5
+- CSS3
+- JavaScript
+- React
 
-IP 158.160.48.140
+## Установка и запуск приложения
+Клонирование репозтория:
+git clone https://github.com/LeBelr/react-mesto-api-full-gha.git
+Установка зависимостей:
+npm i
+Запуск приложения:
+npm run start
 
-Frontend https://mst.nomoredomains.monster
-
-Backend https://api.mst.nomoredomains.monster
+## Ссылка на проект
+https://mst.nomoredomains.monster
